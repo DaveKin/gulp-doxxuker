@@ -1,14 +1,6 @@
-# gulp-doxxuker [![Build Status](https://travis-ci.org/DaveKin/gulp-doxxuker.svg?branch=master)](https://travis-ci.org/DaveKin/gulp-doxxuker)
+# gulp-doxxuker 
 
-> My astounding gulp plugin
-
-
-## Install
-
-```
-$ npm install --save-dev gulp-doxxuker
-```
-
+Parse DocBlock annotations from all types of files and compile a single JSON data file.
 
 ## Usage
 
@@ -22,20 +14,6 @@ gulp.task('default', function () {
 		.pipe(gulp.dest('dist'));
 });
 ```
-
-
-## API
-
-### doxxuker(options)
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
 
 
 ## License
