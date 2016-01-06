@@ -1,0 +1,33 @@
+{
+  "name": "gulp-doxxuker",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "DaveKin/gulp-doxxuker",
+  "author": {
+    "name": "Dave Kinsella",
+    "email": "kinsella.dave@gmail.com",
+    "url": "https://github.com/DaveKin"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "dox": "^0.8.0",
+    "glob": "^6.0.1",
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
