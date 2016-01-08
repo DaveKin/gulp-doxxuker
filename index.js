@@ -38,7 +38,9 @@ module.exports = function (file, options) {
 
 		try {
 			var doc = doxxuker.parse(file);
-			docs = docs.concat(doc);
+			if(doc !== null){
+				docs = docs.concat(doc);
+			}
 		} catch (err) {
 			this.emit('error', new gutil.PluginError('gulp-doxxuker', err));
 		}
